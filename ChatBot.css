@@ -1,0 +1,36 @@
+.chat-bot {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+}
+
+.message {
+  margin: 8px 0;
+}
+
+.message.bot {
+  text-align: left;
+}
+
+.message.user {
+  text-align: right;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+}
+
+.input-area .MuiTextField-root {
+  flex: 1;
+  margin-right: 8px;
+}

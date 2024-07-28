@@ -1,0 +1,52 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffd0d0;
+  color: #333;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+}
+
+.features {
+  text-align: center;
+  padding: 20px;
+  background-color: #e1acac;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.features-description {
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #a87676;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #ca8787;
+  transform: translateY(-2px);
+}

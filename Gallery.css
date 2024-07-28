@@ -1,0 +1,15 @@
+.carousel-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
